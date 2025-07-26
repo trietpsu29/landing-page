@@ -78,7 +78,7 @@ button {
   border: 4px #3882f6 solid;
   width: 150px;
   height: 150px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .subtext {
   color: #646d79;
@@ -93,4 +93,14 @@ button {
 }
 .section2 .content {
   display: flex;
+  padding: 0;
+}
+.inform {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: -45px 0 45px 0;
+}
+.section2 {
+  padding: 100px;
 }
