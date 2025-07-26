@@ -55,8 +55,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 400px;
-  max-width: 850px;
+  max-width: 750px;
   flex: 1;
 }
 .content {
@@ -103,4 +102,29 @@ button {
 }
 .section2 {
   padding: 100px;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  max-width: 780px;
+  margin-left: 30px;
+}
+
+.thor {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  display: flex;
+  width: 750px;
+  justify-content: flex-end;
 }
