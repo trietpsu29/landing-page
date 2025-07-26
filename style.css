@@ -25,7 +25,8 @@ ul {
 .second,
 .image,
 a,
-.text2 {
+.text2,
+.footer {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -52,6 +53,7 @@ button {
   font-size: 18px;
   border: none;
   margin-top: 18px;
+  font-weight: 650;
 }
 .image {
   background-color: #6d747d;
@@ -144,11 +146,20 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: auto;
+  max-width: 1050px;
   padding: 50px 100px 50px 100px;
   gap: 180px;
   flex: 1;
+  margin-left: 50px;
 }
 .section4 button {
   border: 2px solid;
+}
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+  padding-left: 110px;
 }
