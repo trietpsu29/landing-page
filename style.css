@@ -24,7 +24,8 @@ ul {
 }
 .second,
 .image,
-a {
+a,
+.text2 {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -38,9 +39,11 @@ a {
   font-weight: 900;
 }
 button,
-.logo {
+.logo,
+.text1 {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 900;
 }
 button {
   background-color: #3882f6;
@@ -83,7 +86,7 @@ button {
   color: #646d79;
   text-align: center;
 }
-.box-contain {
+.box-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,4 +130,25 @@ button {
   display: flex;
   width: 750px;
   justify-content: flex-end;
+}
+
+.section4 {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.section4 .content {
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  padding: 50px 100px 50px 100px;
+  gap: 180px;
+  flex: 1;
+}
+.section4 button {
+  border: 2px solid;
 }
