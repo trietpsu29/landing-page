@@ -68,3 +68,29 @@ button {
 .contain {
   width: 450px;
 }
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  border: 4px #3882f6 solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.subtext {
+  color: #646d79;
+  text-align: center;
+}
+.box-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  gap: 8px;
+}
+.section2 .content {
+  display: flex;
+}
