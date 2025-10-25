@@ -1,7 +1,6 @@
 # 🌐 Landing page
 
-This is the second project from [The Odin Project](https://github.com/TheOdinProject) curriculum — a simple landing page designed to practice layout and styling with HTML and CSS
-
+This is the second project from [The Odin Project](https://github.com/TheOdinProject) curriculum — a basic landing page.
 ## ✨ Preview
 
 ![Homepage](demo.png)
